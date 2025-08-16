@@ -1,0 +1,35 @@
+.friendList{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.friendListItem{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.friendListItemDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.itemPTag{
+    margin: 0;
+    font-weight: 500;
+}
+
+.online{
+    color: green;
+}
+
+.offline{
+    color: red;
+}
